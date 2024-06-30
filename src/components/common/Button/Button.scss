@@ -1,0 +1,30 @@
+.button {
+  font-weight: bold;
+  padding: 10px 15px;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &.primary,
+  &.secondary {
+    border: none;
+    font-size: 16px;
+  }
+  &.primary {
+    color: #fff;
+  }
+  &.secondary {
+    color: #767676;
+  }
+  &.outline {
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #767676;
+    color: #767676;
+    &.active {
+      color: #19b550;
+      border-color: #19b550;
+    }
+  }
+}

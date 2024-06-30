@@ -1,0 +1,38 @@
+.new-iteration {
+  display: flex;
+  gap: 20px;
+  background: #000;
+  padding: 15px;
+  border-radius: 8px;
+  .iteration-title {
+    border: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 10px 5px 0;
+    padding-left: 0;
+    margin-bottom: 5px;
+  }
+  .iteration-type {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    button {
+      flex: 0 0 auto;
+    }
+  }
+  .iteration-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    border-top: 1px solid gray;
+    margin-top: 15px;
+    button {
+        margin-top: 10px;
+    }
+  }
+}

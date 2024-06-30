@@ -1,0 +1,38 @@
+.experiment-module {
+  background: #1e1e1e;
+  color: #767676;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+  .content {
+    .iterations {
+      margin: 10px 0;
+      .iteration:first-child {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .iteration:last-child {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+  }
+  .footer {
+    margin-top: 10px;
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+  }
+}

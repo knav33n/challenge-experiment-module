@@ -1,5 +1,5 @@
 ## The Challenge
-Using the following wireframes, build an experiment module interface. Using your comprehension about how the application functions, construct all applicable tests. 
+Using the following wireframes, build an experiment module interface. Using your comprehension about how the application functions, construct all applicable tests.
 
 
 ### Experimental Module Panel
